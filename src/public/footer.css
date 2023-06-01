@@ -1,0 +1,93 @@
+/* Estilos generales para el footer */
+.footer {
+    background-color: #f2f2f200;
+    padding: 30px 0;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos para la sección "about" */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.footer-section.about h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section.about p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contact {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact span {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.contact span i {
+    margin-right: 5px;
+}
+
+/* Estilos para el footer bottom */
+.footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.footer-bottom a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos responsive para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .footer-section {
+        flex-basis: 100%;
+    }
+
+    .contact span {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Estilos responsive para tablets */
+@media screen and (max-width: 1024px) {
+    .footer-section {
+        flex-basis: 50%;
+    }
+
+    .contact span {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
